@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gallery page</title>
+    <link rel="stylesheet" href="..\styles\index.css">
+</head>
+
+<body>
+    <h1>Gallery page</h1>
+    <p align='center'>Click on thumbnail...</p>
+
+    <div id='image-list'>
+        <div class='column'>
+            <div class='frame'><img src='../images/img1.jpg' class='thumbnail' title='Marathon' id='img1' /></div>
+            <div class='frame'><img src='../images/img2.jpg' class='thumbnail' title='Gymnastics' id='img2' /></div>
+            <div class='frame'><img src='../images/img3.jpg' class='thumbnail' title='Image 3' id='img3' /></div>
+            <div class='frame'><img src='../images/img6.jpg' class='thumbnail' title='Image 6' id='img6' /></div>
+        </div>
+        <div class='column'>
+            <div class='frame'><img src='../images/img4.jpg' class='thumbnail' title='Image 4' id='img4' /></div>
+            <div class='frame'><img src='../images/img5.jpg' class='thumbnail' title='Image 5' id='img5' /></div>
+            <div class='frame'><img src='../images/img10.jpg' class='thumbnail' title='Image 10' id='img10' /></div>
+        </div>
+        <div class='column'>
+            <div class='frame'><img src='../images/img8.jpg' class='thumbnail' title='Image 8' id='img8' /></div>
+            <div class='frame'><img src='../images/img9.jpg' class='thumbnail' title='Image 9' id='img9' /></div>
+            <div class='frame'><img src='../images/img7.jpg' class='thumbnail' title='Image 7' id='img7' /></div>
+        </div>
+    </div>
+
+    <div id='modal' onClick='closeModal()'>
+        <div id='modal-content'>
+            <div id='title'></div>
+            <img id='image' />
+            <div id='text'></div>
+        </div>
+    </div>
+
+    <script src="..\scripts\index.js"></script>
+</body>
+
+</html>
